@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn base Vue</title>
+</head>
+<body>
+    <h1>Hello E</h1>
+    <section id="contact">
+        <div class="card-container">
+            <div class="card" @mouseover="onLogEvent">Mouse Over (Enter)</div>
+            <div class="card" @mouseleave="onLogEvent">Mouse Leave (Enter)</div>
+            <div class="card" @dblclick="onLogEvent">Double click</div>
+
+        </div>
+    </section>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
